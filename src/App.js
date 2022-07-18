@@ -50,6 +50,13 @@ function App() {
           ))}
         {count === 0 && <p className="NotFound__block">No todos :(</p>}
       </div>
+
+      <a
+        className="source__code"
+        href="https://github.com/NazarSavchuk/redux-todo-list"
+        target={"_blank"}>
+        Source code
+      </a>
     </div>
   );
 }

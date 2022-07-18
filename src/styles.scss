@@ -42,7 +42,7 @@ body {
   font-family: "Gantari", sans-serif;
   padding: 14px;
   box-shadow: 10px 8px 18px rgba(66, 68, 90, 0.25);
-
+  position: relative;
   h1 {
     font-size: 36px;
     color: #8c96c9;
@@ -169,4 +169,22 @@ body {
   font-size: 36px;
   color: #6a7299;
   text-shadow: 4px 2px 6px rgba(66, 68, 90, 0.25);
+}
+.source__code {
+  padding: 8px 16px;
+  background-color: #f4f5f9;
+  position: absolute;
+  bottom: -86px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #3e435c;
+  text-shadow: 4px 2px 6px rgba(66, 68, 90, 0.25);
+  box-shadow: 4px 2px 6px rgba(66, 68, 90, 0.25);
+
+  &:hover {
+    background-color: #dedfe4;
+    transition: 0.1s;
+  }
 }
